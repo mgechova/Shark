@@ -1,28 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="bg">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sharky Ink</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #111;
+            background: url('your-background.jpg') no-repeat center center fixed; /* фон - вставь свой файл */
+            background-size: cover; /* чтобы фон полностью покрывал */
             color: #fff;
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 40px;
         }
-        h1 {
+        .header {
             margin-bottom: 30px;
-            color: #ff4081;
+        }
+        .header img {
+            height: 70px; /* размер логотипа */
         }
         a {
             text-decoration: none;
             color: white;
-            background: #ff4081;
+            background: #cc0000; /* красный цвет кнопок */
             padding: 15px 25px;
             margin: 10px;
             border-radius: 10px;
@@ -30,12 +32,14 @@
             transition: 0.3s ease;
         }
         a:hover {
-            background: #e73370;
+            background: #990000; /* темнее красный при наведении */
         }
     </style>
 </head>
 <body>
-    <h1>Sharky Ink</h1>
+    <div class="header">
+        <img src="logo.png" alt="Логотип Sharky Ink" />
+    </div>
     <a href="https://www.facebook.com/TattooStudioSharkyINK" target="_blank">Facebook</a>
     <a href="https://www.sharkyink.bg/?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExYkVETkozR1JrQ3VOSGNFaAEeCkQxKXyMZ7kxPGBRVXND1KVcFV6pGkhgXTt3RiUcxh4d4r88Q-t7vccym7E_aem_UIyQbdGqqkUIUpRLZnYPlg" target="_blank">Официален сайт</a>
     <a href="https://www.instagram.com/sharky.tats?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExYkVETkozR1JrQ3VOSGNFaAEe5L8GqzhkidZlGpKI4EWaFOkmsTeTk6mt-ZPcnZYdWzhZxiDJPL281n0Edwg_aem_WiNpcdX14cAj3FgPSh49tA" target="_blank">Instagram</a>
